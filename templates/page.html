@@ -1,0 +1,33 @@
+<div align='center' , background-color : solid brown>
+<img border="0" data-original-height="192" data-original-width="1184" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ibHkHbviLQ1c8E6hMUG7vytJTfRWrFcGAzubgo_cBk2Qp9Gdp67XNmFlroLHJUfT-ACb6S7rGfYB7fuGTMSjLM1VXRYShokC8gOVO8mpraw3YkrtpXAZJ0aQ8a7ckF-5mqH04creE4hJjvXHpYTN09hs_n0CVNQeexqEX2a9WUsNQdRqoz0xVaq5mw/s16000/NIT%2014%20years%20for%20Website%20copy.png" />
+<style>
+#bg
+{
+background-color : wheat;
+color : red;
+width: 300px;
+border: 1px solid brown;
+padding: 10px;
+margin: 10px;
+}
+</style>
+<div id = 'bg' , align='center'>
+<head>
+<p>enter hall ticket no.</p>
+<form method='POST' name='submit-to-google-sheet'>
+<input type='text' id='htno' name='htno'>
+<button type='submit'>submit</button>
+</form>
+</head>
+</div>
+HTNO :-{{htno}}<br>
+RESULTS : {{ res | safe }}
+<br>
+STATUS :- {{status}} <BR>
+SEM GPA :-{{SGPA}}<BR>
+PERCENTAGE:-{{perc}}<BR>
+<script type="text/javascript" src="{{ url_for('static',filename='script.js') }}> </script>
+<marquee id='bg'> DESIGNED AND DEVELOPED BY PAVAN KUMAR</marquee>
+
+</div>
+
