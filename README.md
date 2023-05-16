@@ -12,4 +12,10 @@ I have faced a challenge to convert alphabetical grades to numerical grades so I
  
 calculaton using JNTUK sgpa formulae
  
-Now ,Every thing is set now the only remaining thing id  display the   table and for this purpose I have used to_ html() function to convert dataframe into a html formate and used Django tags in page.html to present the output in html page
+Now ,Every thing is set now the only remaining thing is to display the   table and for this purpose I have used to_ html() function to convert dataframe into a html formate and used Django tags in page.html to present the output in html page
+
+Simply I have used conversation tools to convert pdf to excel formate
+
+After extracting the zip file just put your college's results excel file and rename it jn ghe code
+
+now just run the python file on your favorite editor to get flask default URL "http://127.0.0.1:5000" Copy this url when you run the flask application and paste it on your web browser 
