@@ -1,21 +1,56 @@
-# JNTUK_SGPA_CALCULATOR
-This python code reads the excel file "Results1.xlsx" and create a data frame 
 
-Then we initialize FLASK application to get the hallticket number from "page.html" . Then we query the dataframe to filter whole excel sheet 
-The filterd data frame is used in further calculation's of results
+# JNTUK SGPA Calculator
 
-I have stored that single dataframe in two variables, one for display purpose and other for calculation purpose
+This is a Flask application that calculates the SGPA (Semester Grade Point Average) for JNTUK (Jawaharlal Nehru Technological University, Kakinada) students based on their results stored in an Excel file.
 
-Later calculation part calculate sgpa
+## Prerequisites
 
-I have faced a challenge to convert alphabetical grades to numerical grades so I decided to use dictionary to assign an alphabetical key to a numerical value
- 
-calculaton using JNTUK sgpa formulae
- 
-Now ,Every thing is set now the only remaining thing is to display the   table and for this purpose I have used to_ html() function to convert dataframe into a html formate and used Django tags in page.html to present the output in html page
+- Python 3.x
+- Flask
+- pandas
 
-Simply I have used conversation tools to convert pdf to excel formate
+## Installation
 
-After extracting the zip file just put your college's results excel file and rename it jn ghe code
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/pavankovilam/JNTUK_SGPA_CALCULATOR.git
+   ```
 
-now just run the python file on your favorite editor to get flask default URL "http://127.0.0.1:5000" Copy this url when you run the flask application and paste it on your web browser 
+2. Install the required dependencies:
+   ```shell
+   pip install flask pandas
+   ```
+
+## Usage
+
+1. Ensure that the Excel file `'Results1.xlsx'` is present in the correct location and contains the necessary student result data. Make sure the file structure matches the expected format.
+
+2. Run the Flask application:
+   ```shell
+   python app.py
+   ```
+
+3. Open your web browser and navigate to `http://localhost:5000`.
+
+4. Enter the Hall Ticket Number (HTNO) of the student for whom you want to calculate the SGPA.
+
+5. Click the "Submit" button.
+
+6. The application will display the student's result, SGPA, and other relevant information.
+
+## File Structure
+
+- `app.py`: The main Flask application file that handles the routing and calculation logic.
+- `page.html`: The HTML template file used for rendering the result page.
+- `Results1.xlsx`: The Excel file containing the student result data. Ensure it follows the expected format.
+
+
+
+
+## Disclaimer
+
+This application is provided as-is, without any warranty or guarantee of its accuracy or functionality. Please use it responsibly and verify the results if necessary.
+
+## Contact
+
+For any inquiries or feedback, please contact kovi.pavan.kumar@gmail.com
