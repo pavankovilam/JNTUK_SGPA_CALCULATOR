@@ -27,7 +27,7 @@ This is a Flask application that calculates the SGPA (Semester Grade Point Avera
 
 2. Run the Flask application:
    ```shell
-   python app.py
+   python flask_results.py
    ```
 
 3. Open your web browser and navigate to `http://localhost:5000`.
@@ -40,7 +40,7 @@ This is a Flask application that calculates the SGPA (Semester Grade Point Avera
 
 ## File Structure
 
-- `app.py`: The main Flask application file that handles the routing and calculation logic.
+- `flask_results.py`: The main Flask application file that handles the routing and calculation logic.
 - `page.html`: The HTML template file used for rendering the result page.
 - `Results1.xlsx`: The Excel file containing the student result data. Ensure it follows the expected format.
 
