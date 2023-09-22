@@ -18,7 +18,7 @@ This is a Flask application that calculates the SGPA (Semester Grade Point Avera
 
 2. Install the required dependencies:
    ```shell
-   pip install flask pandas
+   pip install flask pandas openpyxl
    ```
 
 ## Usage
